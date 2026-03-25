@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Somes Tech Challenge</title>
+    <meta
+      name="description"
+      content="Somes Tech Challenge - competitie FTC off-season. Despre eveniment, galerie, sponsori si contact."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png" />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      sizes="180x180"
+      href="apple-touch-icon.png"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#home">
+        <span class="brand-title">Somes Tech Challenge</span>
+      </a>
+      <nav class="menu">
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#sponsors">Sponsors</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="hero-content">
+          <p class="eyebrow">powered by Vectron Robotics #17873</p>
+          <h1>Somes Tech Challenge</h1>
+          <p>
+            Un eveniment dedicat pasiunii pentru robotica, inovatie si spirit de
+            echipa. Ne vedem la competitie!
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#about">Descopera evenimentul</a>
+            <a class="btn btn-outline" href="#contact">Inscrie-te</a>
+          </div>
+        </div>
+        <div class="hero-logo-wrap">
+          <img
+            src="1.png"
+            alt="Logo Somes Tech Challenge fara scris"
+            class="hero-logo"
+          />
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <h2>About</h2>
+        <p class="section-lead">
+          Someș Tech Challenge este o competiție dedicată echipelor implicate în programul FTC, care se desfășoară după modelul și regulile competiției FIRST Tech Challenge
+        </p>
+        <div class="about-grid">
+          <article class="card">
+            <h3>Ce urmarim</h3>
+            <p>
+              Urmărim consolidarea relațiilor cu alte echipe, dar și antrenarea pe teren, atât a echipei noastre, cât și a celorlalte echipe.
+
+            </p>
+          </article>
+          <article class="card">
+            <h3>Pentru cine</h3>
+            <p>
+              Această competiție este dedicată echipelor din programul FTC, atât pentru cele noi implicate in acest program, cât și pentru echipele cu mai multă experiență.
+
+            </p>
+          </article>
+          <article class="card">
+            <h3>Atmosfera</h3>
+            <p>
+              Prietenoasă și primitoare, dar și intensă pe teren.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="gallery" class="section">
+        <h2>Gallery</h2>
+        <p class="section-lead">
+          Adauga aici cele mai bune cadre din editiile trecute si momentele
+          memorabile ale echipei.
+        </p>
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <img
+              src="g1.jpeg"
+              alt="Gallery image 1"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="g2.jpeg"
+              alt="Gallery image 2"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="g3.jpeg"
+              alt="Gallery image 3"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="g4.jpeg"
+              alt="Gallery image 4"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="g5.jpeg"
+              alt="Gallery image 5"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="g6.jpeg"
+              alt="Gallery image 6"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section id="sponsors" class="section">
+        <h2>Sponsors</h2>
+        <p class="section-lead">
+          Partenerii nostri fac posibila aceasta competitie. Multumim pentru
+          suportul oferit comunitatii de robotica.
+        </p>
+        <div class="sponsors-grid">
+          <div class="sponsor-card">
+            <img src="4.png" alt="Sponsor 4" class="sponsor-logo" />
+          </div>
+          <div class="sponsor-card">
+            <img src="5.png" alt="Sponsor 5" class="sponsor-logo" />
+          </div>
+          <div class="sponsor-card">Sponsor Silver</div>
+          <div class="sponsor-card">Partener Media</div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p class="section-lead">
+          Vrei sa participi, sa sprijini evenimentul sau sa afli mai multe?
+          Scrie-ne.
+        </p>
+        <div class="contact-wrap">
+          <form class="contact-form" action="https://formspree.io/f/xeepjpng" method="POST">            <label for="name">Nume</label>
+            <input id="name" name="name" type="text" placeholder="Numele tau" required />
+
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="nume@email.com"
+              required
+            />
+
+            <label for="message">Mesaj</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Scrie mesajul tau aici..."
+              required
+            ></textarea>
+
+            <button type="submit" class="btn btn-primary">Trimite mesajul</button>
+          </form>
+          <div class="contact-side">
+            <h3 style="margin-bottom: 10px;">Înscriere</h3>
+            <p style="margin-bottom: 15px;">Alege categoria și completează formularul:</p>
+          
+            <div class="signup-buttons">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLScUTJgKZ0qBjLVeM8xhzNLbmfyYKTx7kzG7Rigxs-MXRyrWXQ/viewform?usp=sharing&ouid=101860086255820234762" target="_blank" class="signup-btn voluntari">
+                Voluntari
+              </a>
+          
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJe4q1AvJ4NumUbCq3Qp24JXj-jHKwkoSpu0cXyO2y9t_2IQ/viewform?usp=sharing&ouid=101860086255820234762" target="_blank" class="signup-btn referees">
+                Referees
+              </a>
+          
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLScGIvESGtpEdRJYW6toJ4l9U484m53QEefugynvf4fA8ysCzA/viewform?usp=publish-editor" target="_blank" class="signup-btn echipe">
+                Echipe
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>© <span id="year"></span> Somes Tech Challenge. All rights reserved.</p>
+      
+        <div class="socials">
+          <a href="https://www.instagram.com/somestechchallenge/" target="_blank" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" class="social-icon">
+              <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 
+              0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm5 5a5 5 0 110 
+              10 5 5 0 010-10zm6.5-.75a1.25 1.25 0 11-2.5 
+              0 1.25 1.25 0 012.5 0z"/>
+            </svg>
+          </a>
+      
+          <a href="https://www.facebook.com/somestechchallenge/?locale=ro_RO" target="_blank" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" class="social-icon">
+              <path d="M22 12a10 10 0 10-11.5 9.87v-6.99H7.9V12h2.6V9.8c0-2.57 
+              1.53-4 3.88-4 1.12 0 2.3.2 2.3.2v2.53h-1.3c-1.28 
+              0-1.68.8-1.68 1.62V12h2.86l-.46 2.88h-2.4v6.99A10 
+              10 0 0022 12z"/>
+            </svg>
+          </a>
+      
+          <a href="https://www.youtube.com/@vectronrobotics4013" target="_blank" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" class="social-icon">
+              <path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.5 3.5 12 3.5 12 
+              3.5s-7.5 0-9.4.6A3 3 0 00.5 6.2 31.4 31.4 0 000 
+              12a31.4 31.4 0 00.5 5.8 3 3 0 002.1 2.1c1.9.6 
+              9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 002.1-2.1A31.4 
+              31.4 0 0024 12a31.4 31.4 0 00-.5-5.8zM9.6 
+              15.5v-7l6.2 3.5-6.2 3.5z"/>
+            </svg>
+          </a>
+        </div>
+      </div>    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
